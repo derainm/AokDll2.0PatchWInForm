@@ -1,0 +1,129 @@
+/* random map types for ai */
+/* Numbers come from Object Category ID */
+/* 09 AUG 99 */
+
+/* random_map.def                 54000
+Std_Elevation.inc              54100
+Std_resources.inc              54101
+Land_and_water_resources.inc   54102
+Land_resources.inc             54103
+Arabia.rms                     54201
+Archipelago.rms                54202
+Baltic.rms                     54203
+Black_forest.rms               54204
+Coastal.rms                    54205
+Continental.rms                54206
+Crater_lake.rms                54207
+Fortress.rms                   54208
+Gold_rush.rms                  54209
+Highland.rms                   54210
+Islands.rms                    54211
+Mediterranean.rms              54212
+Migration.rms                  54213
+Nomad.rms                      54214
+Random.rms                     54216
+Rivers.rms                     54217
+Team_islands.rms               54218 */
+
+#const ARABIA          9
+#const ARCHIPELAGO     10
+#const BALTIC          11
+#const BLACK_FOREST    12
+#const COASTAL         13
+#const CONTINENTAL     14
+#const CRATER_LAKE     15
+#const FORTRESS        16
+#const GOLD_RUSH       17
+#const HIGHLAND        18
+#const ISLANDS         19
+#const MEDITERRANEAN   20
+#const MIGRATION       21
+#const RIVERS          22
+#const TEAM_ISLANDS    23
+
+/* TERRAIN TYPES */
+
+#const  BAMBOO            18
+#const  BEACH             2
+#const  DESERT            14
+#const  DIRT              6 
+#const  DIRT2             11
+#const  DIRT3             3
+#const  FOREST            10
+#const  GRASS             0
+#const  GRASS2            12
+#const  GRASS3            9
+#const  ICE               26
+#const  LEAVES            5
+#const  PALM_DESERT       13
+#const  PINE_FOREST       19
+#const  SHALLOW           4
+#const  WATER             1   /* WATER1 */
+#const  MED_WATER         23  /* WATER3 */
+#const  DEEP_WATER        22  /* WATER2 */
+/* #const  TRAIL           26 */
+#const  SNOW              24
+#const  SNOW2             25
+
+
+/* OBJECT TYPES */
+/* GAIA */
+
+#const  BAMBOO_TREE     348
+#const  BOAR            48
+#const  CACTUS          709
+#const  DEER		65
+#const  MARLIN1         450 /* DOLPHIN1 */
+#const  MARLIN2         451 /* DOLPHIN2 */
+#const  FISH            53  /* FISHX */
+#const  DORADO          455 /* FISH1 */
+#const  SALMON          456 /* FISH2 */
+#const  TUNA            457 /* FISH3 */
+#const  SNAPPER         458 /* FISH4 */
+#const  SHORE_FISH 	69
+#const  FORAGE		59
+#const  FOREST_TREE     411
+#const  GOLD		66
+#const  HAWK            96
+#const  OAKTREE         349
+#const  PALMTREE        351
+#const  PINETREE        350
+#const  SHEEP		594
+#const  SKELETON        710
+#const  STONE		102
+#const  TREE1           399
+#const  TREE2           400
+#const  TREE3           401
+#const  TREE4           402
+#const  TREE5           403
+#const  WOLF            126
+#const  RABID_WOLF      202
+#const  RELIC		285
+ 
+/* UNITS */
+
+#const  ARCHER            4
+#const  KING		434
+#const  KNIGHT           38
+#const  MANGONEL        280
+#const  MILITIA          74
+#const  VILLAGER	       83
+#const  SCOUT           448
+#const  SPEARMAN         93
+#const  GALLEY          539
+
+/* BUILDINGS */
+
+#const  ARCHERY_RANGE    87
+#const  BARRACKS         12
+#const  BLACKSMITH      103
+#const  CASTLE           82
+#const  FARM		 50
+#const  HOUSE            70
+#const  MARKET           84
+#const  OUTPOST         598
+#const  STABLE		101
+#const  TOWN_CENTER 	109
+#const  WALL            117
+#const  WATCH_TOWER  	 79
+#const  Palisade_wall	 72
