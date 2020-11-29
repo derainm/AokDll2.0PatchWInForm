@@ -31,14 +31,19 @@
             this.buttonPatch = new System.Windows.Forms.Button();
             this.BtnBrw = new System.Windows.Forms.Button();
             this.checkBoxWindowedMod = new System.Windows.Forms.CheckBox();
-            this.checkBoxWideScreen = new System.Windows.Forms.CheckBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.radioButtonWideScreenCentred = new System.Windows.Forms.RadioButton();
+            this.radioButtonWideScreenVoobly = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.radioButtonNoWideScreen = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonPatch
             // 
-            this.buttonPatch.Location = new System.Drawing.Point(12, 257);
+            this.buttonPatch.Location = new System.Drawing.Point(7, 230);
             this.buttonPatch.Name = "buttonPatch";
             this.buttonPatch.Size = new System.Drawing.Size(132, 66);
             this.buttonPatch.TabIndex = 0;
@@ -48,7 +53,7 @@
             // 
             // BtnBrw
             // 
-            this.BtnBrw.Location = new System.Drawing.Point(355, 257);
+            this.BtnBrw.Location = new System.Drawing.Point(332, 230);
             this.BtnBrw.Name = "BtnBrw";
             this.BtnBrw.Size = new System.Drawing.Size(143, 66);
             this.BtnBrw.TabIndex = 1;
@@ -59,56 +64,102 @@
             // checkBoxWindowedMod
             // 
             this.checkBoxWindowedMod.AutoSize = true;
-            this.checkBoxWindowedMod.Location = new System.Drawing.Point(12, 210);
+            this.checkBoxWindowedMod.Location = new System.Drawing.Point(12, 195);
             this.checkBoxWindowedMod.Name = "checkBoxWindowedMod";
             this.checkBoxWindowedMod.Size = new System.Drawing.Size(101, 17);
             this.checkBoxWindowedMod.TabIndex = 2;
             this.checkBoxWindowedMod.Text = "Windowed Mod";
             this.checkBoxWindowedMod.UseVisualStyleBackColor = true;
             // 
-            // checkBoxWideScreen
+            // panel1
             // 
-            this.checkBoxWideScreen.AutoSize = true;
-            this.checkBoxWideScreen.Location = new System.Drawing.Point(12, 177);
-            this.checkBoxWideScreen.Name = "checkBoxWideScreen";
-            this.checkBoxWideScreen.Size = new System.Drawing.Size(85, 17);
-            this.checkBoxWideScreen.TabIndex = 3;
-            this.checkBoxWideScreen.Text = "WideScreen";
-            this.checkBoxWideScreen.UseVisualStyleBackColor = true;
+            this.panel1.Controls.Add(this.radioButtonNoWideScreen);
+            this.panel1.Controls.Add(this.radioButtonWideScreenVoobly);
+            this.panel1.Controls.Add(this.radioButtonWideScreenCentred);
+            this.panel1.Location = new System.Drawing.Point(12, 104);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 73);
+            this.panel1.TabIndex = 7;
+            // 
+            // radioButtonWideScreenCentred
+            // 
+            this.radioButtonWideScreenCentred.AutoSize = true;
+            this.radioButtonWideScreenCentred.Location = new System.Drawing.Point(3, 26);
+            this.radioButtonWideScreenCentred.Name = "radioButtonWideScreenCentred";
+            this.radioButtonWideScreenCentred.Size = new System.Drawing.Size(124, 17);
+            this.radioButtonWideScreenCentred.TabIndex = 0;
+            this.radioButtonWideScreenCentred.TabStop = true;
+            this.radioButtonWideScreenCentred.Text = "WideScreen Centred";
+            this.radioButtonWideScreenCentred.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonWideScreenVoobly
+            // 
+            this.radioButtonWideScreenVoobly.AutoSize = true;
+            this.radioButtonWideScreenVoobly.Location = new System.Drawing.Point(3, 3);
+            this.radioButtonWideScreenVoobly.Name = "radioButtonWideScreenVoobly";
+            this.radioButtonWideScreenVoobly.Size = new System.Drawing.Size(177, 17);
+            this.radioButtonWideScreenVoobly.TabIndex = 1;
+            this.radioButtonWideScreenVoobly.TabStop = true;
+            this.radioButtonWideScreenVoobly.Text = "WideScreen Userpatch (Voobly)";
+            this.radioButtonWideScreenVoobly.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 152);
+            this.label1.Location = new System.Drawing.Point(9, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(297, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "If you have 1280 x       resolution better to use no wideScreen";
+            this.label1.Size = new System.Drawing.Size(101, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Choise WideScreen";
+            // 
+            // radioButtonNoWideScreen
+            // 
+            this.radioButtonNoWideScreen.AutoSize = true;
+            this.radioButtonNoWideScreen.Location = new System.Drawing.Point(3, 49);
+            this.radioButtonNoWideScreen.Name = "radioButtonNoWideScreen";
+            this.radioButtonNoWideScreen.Size = new System.Drawing.Size(98, 17);
+            this.radioButtonNoWideScreen.TabIndex = 2;
+            this.radioButtonNoWideScreen.TabStop = true;
+            this.radioButtonNoWideScreen.Text = "No wideScreen";
+            this.radioButtonNoWideScreen.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(121, 177);
+            this.label2.Location = new System.Drawing.Point(213, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(284, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Be shure that you don\'t have any widescreen mod installed";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label3.Location = new System.Drawing.Point(213, 124);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(114, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "if you don\'t want a bug";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 335);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(509, 304);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.checkBoxWideScreen);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.checkBoxWindowedMod);
             this.Controls.Add(this.BtnBrw);
             this.Controls.Add(this.buttonPatch);
             this.Name = "Form1";
             this.Text = "Dll Aok 20 Patch";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,9 +170,13 @@
         private System.Windows.Forms.Button buttonPatch;
         private System.Windows.Forms.Button BtnBrw;
         private System.Windows.Forms.CheckBox checkBoxWindowedMod;
-        private System.Windows.Forms.CheckBox checkBoxWideScreen;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.RadioButton radioButtonNoWideScreen;
+        private System.Windows.Forms.RadioButton radioButtonWideScreenVoobly;
+        private System.Windows.Forms.RadioButton radioButtonWideScreenCentred;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

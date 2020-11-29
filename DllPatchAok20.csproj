@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon1.png" />
+    <None Include="Resources\patchvooblyRes.dll" />
     <None Include="Resources\patch.dll" />
     <None Include="Resources\patchNowideScreen.dll" />
   </ItemGroup>

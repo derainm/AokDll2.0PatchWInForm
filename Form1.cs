@@ -16,6 +16,7 @@ namespace DllPatchAok20
         public Form1()
         {
             InitializeComponent();
+            radioButtonNoWideScreen.Checked = true;
         }
         private string GamePath;
         private Byte[] exe;
@@ -336,11 +337,15 @@ namespace DllPatchAok20
                     File.Delete(tmpDrsFile);
                 }
                 #endregion
-                if(checkBoxWideScreen.Checked)
+                if(radioButtonWideScreenCentred.Checked)
                 {
                     File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patch);
                 }
-                else
+                if (radioButtonWideScreenVoobly.Checked)
+                {
+                    File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchvooblyRes);
+                }
+                if(radioButtonNoWideScreen.Checked)
                 {
                     File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchNowideScreen);
                 }
