@@ -231,6 +231,16 @@ namespace DllPatchAok20.Properties {
         }
         
         /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _50500 {
+            get {
+                object obj = ResourceManager.GetObject("_50500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
         internal static byte[] _54000 {
@@ -283,6 +293,16 @@ namespace DllPatchAok20.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
+        internal static byte[] aok20a_offsets {
+            get {
+                object obj = ResourceManager.GetObject("aok20a_offsets", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
         internal static byte[] gamedata {
             get {
                 object obj = ResourceManager.GetObject("gamedata", resourceCulture);
@@ -293,9 +313,29 @@ namespace DllPatchAok20.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
-        internal static byte[] patch {
+        internal static byte[] miniupnpc {
             get {
-                object obj = ResourceManager.GetObject("patch", resourceCulture);
+                object obj = ResourceManager.GetObject("miniupnpc", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] Patch {
+            get {
+                object obj = ResourceManager.GetObject("Patch", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] patcher {
+            get {
+                object obj = ResourceManager.GetObject("patcher", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -306,6 +346,26 @@ namespace DllPatchAok20.Properties {
         internal static byte[] patchNowideScreen {
             get {
                 object obj = ResourceManager.GetObject("patchNowideScreen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] patchvooblyRes {
+            get {
+                object obj = ResourceManager.GetObject("patchvooblyRes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] resizeframes {
+            get {
+                object obj = ResourceManager.GetObject("resizeframes", resourceCulture);
                 return ((byte[])(obj));
             }
         }

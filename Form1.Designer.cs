@@ -32,10 +32,11 @@
             this.BtnBrw = new System.Windows.Forms.Button();
             this.checkBoxWindowedMod = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButtonWideScreenCentred = new System.Windows.Forms.RadioButton();
-            this.radioButtonWideScreenVoobly = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
+            this.radioButtonWideScreen1280 = new System.Windows.Forms.RadioButton();
             this.radioButtonNoWideScreen = new System.Windows.Forms.RadioButton();
+            this.radioButtonWideScreenVoobly = new System.Windows.Forms.RadioButton();
+            this.radioButtonWideScreenCentred = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -73,35 +74,58 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.radioButtonWideScreen1280);
             this.panel1.Controls.Add(this.radioButtonNoWideScreen);
             this.panel1.Controls.Add(this.radioButtonWideScreenVoobly);
             this.panel1.Controls.Add(this.radioButtonWideScreenCentred);
             this.panel1.Location = new System.Drawing.Point(12, 104);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 73);
+            this.panel1.Size = new System.Drawing.Size(215, 85);
             this.panel1.TabIndex = 7;
             // 
-            // radioButtonWideScreenCentred
+            // radioButtonWideScreen1280
             // 
-            this.radioButtonWideScreenCentred.AutoSize = true;
-            this.radioButtonWideScreenCentred.Location = new System.Drawing.Point(3, 26);
-            this.radioButtonWideScreenCentred.Name = "radioButtonWideScreenCentred";
-            this.radioButtonWideScreenCentred.Size = new System.Drawing.Size(124, 17);
-            this.radioButtonWideScreenCentred.TabIndex = 0;
-            this.radioButtonWideScreenCentred.TabStop = true;
-            this.radioButtonWideScreenCentred.Text = "WideScreen Centred";
-            this.radioButtonWideScreenCentred.UseVisualStyleBackColor = true;
+            this.radioButtonWideScreen1280.AutoSize = true;
+            this.radioButtonWideScreen1280.Location = new System.Drawing.Point(3, 1);
+            this.radioButtonWideScreen1280.Name = "radioButtonWideScreen1280";
+            this.radioButtonWideScreen1280.Size = new System.Drawing.Size(159, 17);
+            this.radioButtonWideScreen1280.TabIndex = 3;
+            this.radioButtonWideScreen1280.TabStop = true;
+            this.radioButtonWideScreen1280.Text = "WideScreen static (Voobly)  ";
+            this.radioButtonWideScreen1280.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonNoWideScreen
+            // 
+            this.radioButtonNoWideScreen.AutoSize = true;
+            this.radioButtonNoWideScreen.Location = new System.Drawing.Point(3, 65);
+            this.radioButtonNoWideScreen.Name = "radioButtonNoWideScreen";
+            this.radioButtonNoWideScreen.Size = new System.Drawing.Size(98, 17);
+            this.radioButtonNoWideScreen.TabIndex = 2;
+            this.radioButtonNoWideScreen.TabStop = true;
+            this.radioButtonNoWideScreen.Text = "No wideScreen";
+            this.radioButtonNoWideScreen.UseVisualStyleBackColor = true;
             // 
             // radioButtonWideScreenVoobly
             // 
             this.radioButtonWideScreenVoobly.AutoSize = true;
-            this.radioButtonWideScreenVoobly.Location = new System.Drawing.Point(3, 3);
+            this.radioButtonWideScreenVoobly.Location = new System.Drawing.Point(3, 22);
             this.radioButtonWideScreenVoobly.Name = "radioButtonWideScreenVoobly";
             this.radioButtonWideScreenVoobly.Size = new System.Drawing.Size(177, 17);
             this.radioButtonWideScreenVoobly.TabIndex = 1;
             this.radioButtonWideScreenVoobly.TabStop = true;
             this.radioButtonWideScreenVoobly.Text = "WideScreen Userpatch (Voobly)";
             this.radioButtonWideScreenVoobly.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonWideScreenCentred
+            // 
+            this.radioButtonWideScreenCentred.AutoSize = true;
+            this.radioButtonWideScreenCentred.Location = new System.Drawing.Point(3, 42);
+            this.radioButtonWideScreenCentred.Name = "radioButtonWideScreenCentred";
+            this.radioButtonWideScreenCentred.Size = new System.Drawing.Size(124, 17);
+            this.radioButtonWideScreenCentred.TabIndex = 0;
+            this.radioButtonWideScreenCentred.TabStop = true;
+            this.radioButtonWideScreenCentred.Text = "WideScreen Centred";
+            this.radioButtonWideScreenCentred.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -112,22 +136,11 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Choise WideScreen";
             // 
-            // radioButtonNoWideScreen
-            // 
-            this.radioButtonNoWideScreen.AutoSize = true;
-            this.radioButtonNoWideScreen.Location = new System.Drawing.Point(3, 49);
-            this.radioButtonNoWideScreen.Name = "radioButtonNoWideScreen";
-            this.radioButtonNoWideScreen.Size = new System.Drawing.Size(98, 17);
-            this.radioButtonNoWideScreen.TabIndex = 2;
-            this.radioButtonNoWideScreen.TabStop = true;
-            this.radioButtonNoWideScreen.Text = "No wideScreen";
-            this.radioButtonNoWideScreen.UseVisualStyleBackColor = true;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(213, 111);
+            this.label2.Location = new System.Drawing.Point(233, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(284, 13);
             this.label2.TabIndex = 5;
@@ -137,7 +150,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(213, 124);
+            this.label3.Location = new System.Drawing.Point(233, 122);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 13);
             this.label3.TabIndex = 9;
@@ -177,6 +190,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton radioButtonWideScreen1280;
     }
 }
 

@@ -118,14 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="aok20a_offsets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aok20a_offsets;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="gamedata" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gamedata.drs;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\patch.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="miniupnpc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miniupnpc.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patch.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="patcher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patcher.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="patchNowideScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patchNowideScreen.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="patchvooblyRes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patchvooblyRes.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resizeframes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resizeframes.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ResourceHacker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ResourceHacker.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -180,6 +195,9 @@
   </data>
   <data name="_4_Nomad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4 Nomad.bina;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_50500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50500.bina.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_54000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\54000.bina;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

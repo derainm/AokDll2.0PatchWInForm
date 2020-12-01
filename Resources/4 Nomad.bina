@@ -553,7 +553,7 @@ create_object HAWK
    number_of_objects         6
    set_scaling_to_map_size
 }
-
+/*
 create_object WOLF
 {
   number_of_objects          1
@@ -562,7 +562,7 @@ create_object WOLF
   min_distance_to_players    40
   max_distance_to_players    120
 } 
-
+*/
 /* BALANCING FISH - WAS 40 */
 
 create_object FISH

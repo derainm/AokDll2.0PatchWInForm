@@ -1,0 +1,17 @@
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\bin\Release\DllPatchAok20.exe
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\bin\Release\DllPatchAok20.pdb
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.Form1.resources
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.Properties.Resources.resources
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.csproj.GenerateResource.cache
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.csproj.CoreCompileInputs.cache
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.exe
+C:\Users\Beleive\source\repos\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.pdb
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.Form1.resources
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.Properties.Resources.resources
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.csproj.GenerateResource.cache
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.csproj.CoreCompileInputs.cache
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\bin\Release\DllPatchAok20.exe
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\bin\Release\DllPatchAok20.pdb
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.exe
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\obj\Release\DllPatchAok20.pdb
+C:\Users\m\Desktop\DllPatchAok20\DllPatchAok20\bin\Release\50500.bmp

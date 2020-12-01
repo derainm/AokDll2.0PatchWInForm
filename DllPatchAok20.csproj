@@ -63,6 +63,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="rowedge.cs" />
+    <Compile Include="slpreader.cs" />
+    <Compile Include="slpwriter.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +111,7 @@
     <None Include="Resources\7 DE_CrossAok.rms" />
     <None Include="Resources\8 DE_HideoutAok.rms" />
     <None Include="Resources\9 DE_HillfortAok.rms" />
+    <None Include="Resources\aok20a_offsets" />
     <None Include="Resources\gamedata.drs" />
     <None Include="Resources\wndmode.dll" />
   </ItemGroup>
@@ -119,9 +122,17 @@
     <None Include="Resources\ResourceHacker.exe" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="50500.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Icon1.png" />
+    <None Include="Resources\patcher.exe" />
+    <None Include="Resources\50500.bina.bmp" />
+    <None Include="Resources\resizeframes.exe" />
+    <None Include="Resources\50500.bmp" />
+    <None Include="Resources\Patch.dll" />
+    <None Include="Resources\miniupnpc.dll" />
     <None Include="Resources\patchvooblyRes.dll" />
-    <None Include="Resources\patch.dll" />
     <None Include="Resources\patchNowideScreen.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
