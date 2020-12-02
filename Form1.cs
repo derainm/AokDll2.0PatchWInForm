@@ -17,6 +17,7 @@ namespace DllPatchAok20
         {
             InitializeComponent();
             radioButtonNoWideScreen.Checked = true;
+            checkBoxPortFowarding.Checked = true;
         }
         private string GamePath;
         private Byte[] exe;
@@ -213,8 +214,8 @@ namespace DllPatchAok20
             {
                 if (File.Exists("resizeframes.exe"))
                     File.Delete("resizeframes.exe");
-                if (File.Exists("50500.bmp"))
-                    File.Delete("50500.bmp");
+                //if (File.Exists("50500.bmp"))
+                //    File.Delete("50500.bmp");
                 Console.WriteLine("deleted");
             }
             catch (Exception e) { };
@@ -662,15 +663,42 @@ namespace DllPatchAok20
                 #endregion
                 if(radioButtonWideScreenCentred.Checked)
                 {
-                    File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.Patch);
+                    if(checkBoxPortFowarding.Checked)
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchCentredwideScreenPortForwarding);
+                        if (!File.Exists(Path.Combine(currentDir, "miniupnpc.dll")))
+                            File.WriteAllBytes(Path.Combine(currentDir, "miniupnpc.dll"),DllPatchAok20.Properties.Resources.miniupnpc);
+                    }
+                    else
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.Patch);
+                    }
                 }
                 if (radioButtonWideScreenVoobly.Checked)
                 {
-                    File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchvooblyRes);
+                    if(checkBoxPortFowarding.Checked)
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchUserpatchwideScreenPortForwarding);
+                        if(!File.Exists(Path.Combine(currentDir, "miniupnpc.dll")))
+                            File.WriteAllBytes(Path.Combine(currentDir, "miniupnpc.dll"), DllPatchAok20.Properties.Resources.miniupnpc);
+                    }
+                    else
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchvooblyRes);
+                    }
                 }
                 if(radioButtonNoWideScreen.Checked)
                 {
-                    File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchNowideScreen);
+                    if(checkBoxPortFowarding.Checked)
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchNowideScreenPortForwarding);
+                        if (!File.Exists(Path.Combine(currentDir, "miniupnpc.dll")))
+                            File.WriteAllBytes(Path.Combine(currentDir, "miniupnpc.dll"), DllPatchAok20.Properties.Resources.miniupnpc);
+                    }
+                    else
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchNowideScreen);
+                    }
                 }
 
                 if (!File.Exists(wndmodedll) && checkBoxWindowedMod.Checked)
@@ -689,7 +717,17 @@ namespace DllPatchAok20
                     p7.WaitForExit();
                     File.Delete(currentDir + "\\empires2.exe");
                     File.Copy("empires2_"+screenWidth+"x"+screenHeight+".exe", currentDir + "\\empires2.exe");
-                    File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchNowideScreen);
+
+                    if(checkBoxPortFowarding.Checked)
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchNowideScreenPortForwarding);
+                        if (!File.Exists(Path.Combine(currentDir, "miniupnpc.dll")))
+                            File.WriteAllBytes(Path.Combine(currentDir, "miniupnpc.dll"), DllPatchAok20.Properties.Resources.miniupnpc);
+                    }
+                    else
+                    {
+                        File.WriteAllBytes(patchFile, DllPatchAok20.Properties.Resources.patchNowideScreen);
+                    }
                 }
                 cleanfile();
                 MessageBox.Show("Done.");

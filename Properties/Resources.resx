@@ -130,11 +130,20 @@
   <data name="Patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Patch.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="patchCentredwideScreenPortForwarding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patchCentredwideScreenPortForwarding.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="patcher" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patcher.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="patchNowideScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patchNowideScreen.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="patchNowideScreenPortForwarding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patchNowideScreenPortForwarding.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="patchUserpatchwideScreenPortForwarding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patchUserpatchwideScreenPortForwarding.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="patchvooblyRes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patchvooblyRes.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

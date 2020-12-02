@@ -126,6 +126,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Icon1.png" />
+    <None Include="Resources\patchUserpatchwideScreenPortForwarding.dll" />
+    <None Include="Resources\patchCentredwideScreenPortForwarding.dll" />
+    <None Include="Resources\patchNowideScreenPortForwarding.dll" />
     <None Include="Resources\patcher.exe" />
     <None Include="Resources\50500.bina.bmp" />
     <None Include="Resources\resizeframes.exe" />

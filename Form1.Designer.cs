@@ -39,6 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.checkBoxPortFowarding = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,7 +66,7 @@
             // checkBoxWindowedMod
             // 
             this.checkBoxWindowedMod.AutoSize = true;
-            this.checkBoxWindowedMod.Location = new System.Drawing.Point(12, 195);
+            this.checkBoxWindowedMod.Location = new System.Drawing.Point(12, 207);
             this.checkBoxWindowedMod.Name = "checkBoxWindowedMod";
             this.checkBoxWindowedMod.Size = new System.Drawing.Size(101, 17);
             this.checkBoxWindowedMod.TabIndex = 2;
@@ -156,11 +157,22 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "if you don\'t want a bug";
             // 
+            // checkBoxPortFowarding
+            // 
+            this.checkBoxPortFowarding.AutoSize = true;
+            this.checkBoxPortFowarding.Location = new System.Drawing.Point(12, 190);
+            this.checkBoxPortFowarding.Name = "checkBoxPortFowarding";
+            this.checkBoxPortFowarding.Size = new System.Drawing.Size(97, 17);
+            this.checkBoxPortFowarding.TabIndex = 10;
+            this.checkBoxPortFowarding.Text = "Port Fowarding";
+            this.checkBoxPortFowarding.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(509, 304);
+            this.Controls.Add(this.checkBoxPortFowarding);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -191,6 +203,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton radioButtonWideScreen1280;
+        private System.Windows.Forms.CheckBox checkBoxPortFowarding;
     }
 }
 

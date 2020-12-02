@@ -333,6 +333,16 @@ namespace DllPatchAok20.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Byte[].
         /// </summary>
+        internal static byte[] patchCentredwideScreenPortForwarding {
+            get {
+                object obj = ResourceManager.GetObject("patchCentredwideScreenPortForwarding", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
         internal static byte[] patcher {
             get {
                 object obj = ResourceManager.GetObject("patcher", resourceCulture);
@@ -346,6 +356,26 @@ namespace DllPatchAok20.Properties {
         internal static byte[] patchNowideScreen {
             get {
                 object obj = ResourceManager.GetObject("patchNowideScreen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] patchNowideScreenPortForwarding {
+            get {
+                object obj = ResourceManager.GetObject("patchNowideScreenPortForwarding", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] patchUserpatchwideScreenPortForwarding {
+            get {
+                object obj = ResourceManager.GetObject("patchUserpatchwideScreenPortForwarding", resourceCulture);
                 return ((byte[])(obj));
             }
         }
